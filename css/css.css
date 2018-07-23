@@ -27,10 +27,11 @@ header {
     box-sizing: border-box;
 
 }
+
 header > div {
     display: block;
-    margin-top:auto;
-    margin-bottom:auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .search {
@@ -46,13 +47,16 @@ header .right {
     padding-right: 20px;
     padding-left: 20px;
 }
-.logo > i{
-    color: rgb(64,81,181);
+
+.logo > i {
+    color: rgb(64, 81, 181);
 }
+
 i {
     font-size: 44px;
 }
-.item-1{
+
+.item-1 {
     height: 562px;
     width: 718px;
     position: relative;
@@ -61,14 +65,16 @@ i {
     background-position: center;
     margin-top: -160px;
 }
+
 .item-1 .background-op {
     height: 562px;
     width: 718px;
-    position:absolute;
-    background: rgb(51,51,51);
+    position: absolute;
+    background: rgb(51, 51, 51);
     opacity: 0.5;
     z-index: 2;
 }
+
 .item-1 .big {
     position: relative;
 
@@ -78,59 +84,69 @@ i {
     padding-top: 160px;
     font-weight: 800;
 }
+
 .item-1 .medium {
     z-index: 3;
     position: relative;
     font-size: 28px;
     padding-top: 40px;
     padding-bottom: 40px;
-    color: rgb(221,221,221);
+    color: rgb(221, 221, 221);
 }
+
 button.shop {
     z-index: 3;
     position: relative;
-    background: rgb(233,30,99);
+    background: rgb(233, 30, 99);
     padding: 20px 30px;
     font-size: 24px;
     border: 1px solid transparent;
     border-radius: 10px;
     font-weight: 600;
 }
+
 .slide-mark {
     z-index: 3;
-position: relative;
+    position: relative;
     text-align: center;
     padding-top: 125px;
 }
+
 .slide-mark > i {
     background: transparent;
-    color:white;
+    color: white;
     font-size: 24px;
 }
+
 .slide-mark .active {
-    color: rgb(233,30,99) !important;
+    color: rgb(233, 30, 99) !important;
 }
+
 .item-2 {
     height: 1375px;
     background: white;
     padding-top: 68px;
 }
+
 .item-2 .category {
     font-size: 32px;
     font-weight: 500;
 }
-.item-2 > hr{
+
+.item-2 > hr {
     width: 60px;
     height: 4px;
-    background:rgb(64,81,181);
-    border:none;
+    background: rgb(64, 81, 181);
+    border: none;
 }
+
 .item-2 .products {
-    width:718px;
+    width: 718px;
     max-height: 1130px;
     /*padding:20px;*/
     overflow: auto;
 }
+
 .card {
     box-sizing: border-box;
     width: 305px;
@@ -138,122 +154,146 @@ position: relative;
     margin: 20px 18px;
     padding: 20px 5px 20px 5px;
     display: inline-block;
-    box-shadow:  0 0 8px 2px rgb(227, 227, 227);
+    box-shadow: 0 0 8px 2px rgb(227, 227, 227);
 }
+
 .avt {
     height: 272px;
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }
+
 .avt > img {
     height: 100%;
     width: auto;
 }
+
 .name {
-    color: rgb(51,51,51);
+    color: rgb(51, 51, 51);
     font-weight: 500;
-    padding-top:5px;
-    padding-bottom:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+
 .rate {
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
+
 .rate > i {
     font-size: 24px;
 }
+
 .fa-star {
-    color: rgb(153,153,153);
+    color: rgb(153, 153, 153);
 }
+
 .fa-star.up {
-    color: rgb(254,205,45);
+    color: rgb(254, 205, 45);
 }
+
 .price {
     padding-top: 2px;
     padding-bottom: 10px;
     font-weight: 600;
 }
 
-button.add{
-    background: rgb(233,30,99);
+button.add {
+    background: rgb(233, 30, 99);
     padding: 15px 30px;
     font-size: 24px;
     border: 1px solid transparent;
     border-radius: 10px;
     font-weight: 600;
-    box-shadow:  0 0 8px 2px rgb(227, 227, 227);
+    box-shadow: 0 0 8px 2px rgb(227, 227, 227);
 }
 
 .pag {
-    color: rgb(68,68,68);
+    color: rgb(68, 68, 68);
 }
+
 .pag > button {
-    box-shadow:  0 0 8px 2px rgb(227, 227, 227);
+    box-shadow: 0 0 8px 2px rgb(227, 227, 227);
     display: inline-block;
     height: 60px;
     min-width: 60px;
-    background: rgb(243,243,243);
+    background: rgb(243, 243, 243);
     padding: 10px;
-    border:none;
-    margin:14px;
+    border: none;
+    margin: 14px;
     border-radius: 5px;
     font-size: 24px;
-    margin-top:10px;
+    margin-top: 10px;
 }
+
 .pag .active {
-    background: rgb(64,81,181);
+    background: rgb(64, 81, 181);
     color: white;
 }
 
 footer {
     min-height: 572px;
-    background: rgb(35,35,35);
+    background: rgb(35, 35, 35);
     color: white;
-    padding-top:64px;
+    padding-top: 64px;
 }
-footer >div {
-    padding-top:14px;
-    padding-bottom:14px;
+
+footer > div {
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
+
 .ex-link {
-padding:40px;
+    padding: 20px 40px 40px 40px;
 }
+
 .ex-link .icon {
     display: inline-block;
     border-radius: 50%;
     width: 60px;
-    height:60px;
-    margin:auto;
+    height: 60px;
+    margin: auto;
     box-sizing: border-box;
 }
-.ex-link .icon >i {
+
+.ex-link .icon > i {
     font-size: 26px;
     line-height: 60px;
-    margin:auto;
+    margin-left: 5px;
+    margin-right: 5px;
 }
+
 .icon.facebook {
-    background: rgb(59,89,152);
+    background: rgb(59, 89, 152);
 }
+
 .icon.twitter {
-    background: rgb(0,172,237);
+    background: rgb(0, 172, 237);
 }
+
 .icon.google {
-    background: rgb(221,75,57);
+    background: rgb(221, 75, 57);
 }
+
 .icon.instagram {
-    background: rgb(81,127,166);
+    background: rgb(81, 127, 166);
 }
-.icon.rss{
-    background: rgb(254,126,0);
+
+.icon.rss {
+    background: rgb(254, 126, 0);
 }
+
 .copyright {
-    padding-top:80px;
+    padding-top: 80px;
 }
+
 i.fa-copyright {
     font-size: 26px;
 }
+
 .white {
     color: white;
 }
+
 .color {
-    background: rgb(233,30,99);
-    color: rgb(64,81,181);
+    background: rgb(233, 30, 99);
+    color: rgb(64, 81, 181);
 }
