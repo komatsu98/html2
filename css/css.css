@@ -161,6 +161,7 @@ button.shop {
 .avt {
     height: 272px;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 
 .avt > img {
