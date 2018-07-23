@@ -151,7 +151,7 @@ button.shop {
     box-sizing: border-box;
     width: 305px;
     height: 530px;
-    margin: 20px 18px;
+    margin: 20px 15px 20px 24px;
     padding: 20px 5px 20px 5px;
     display: inline-block;
     box-shadow: 0 0 8px 2px rgb(227, 227, 227);
@@ -296,4 +296,16 @@ i.fa-copyright {
 .color {
     background: rgb(233, 30, 99);
     color: rgb(64, 81, 181);
+}
+.products::-webkit-scrollbar {
+    width: 0.3em;
+}
+
+.products::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.products::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
 }
