@@ -8,7 +8,7 @@ Thực hiện bởi [Hồ Anh Tiến](https://github.com/komatsu98)
 
 ## Liên kết
 
-[PSD File](https://github.com/colombo-trainee/trainee_2018/blob/master/frontend/simple%20mobile/159256-OUIMC7-479.psd)
+[Mẫu](https://github.com/colombo-trainee/trainee_2018/blob/master/frontend/simple%20mobile/mobile%20shop.png)
 
 [UI labs](https://komatsu98.github.io/html2/)
 ## Kiến thức nắm được
